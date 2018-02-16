@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+body{
+  font-family: 'Inconsolata','monospace';
+  color: var(--dark-gray)
+}
+
+a{
+  color: inherit;
+  text: inherit;
+}
+
+a:hover{
+  text-decoration: inherit;
+  color: inherit;
+}
+
+:root{
+  --dark-gray: #212121;
+  --text-light: white;
+}
+.splashscreen{
+  height: 100vh;
+  background-color: var(--dark-gray);
+  color: var(--text-light)
+}
+
+.card-block{
+  padding: 10%;
+}
+
+.progress{
+  background-color: white;
+}
+
+#about, #popular{
+  margin: 0;
+  padding: 10vw;
+}
+
+.jumbotron{
+  border-radius: 0;
+}
